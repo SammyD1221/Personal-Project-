@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+
+<html>
+
+	<head>
+		<title> Ovo </title>
+		<link rel="ShortCut Icon" href="Images/favicon.ico">
+		<meta charset="utf-8">
+		<meta name="description" content="Drake">
+		<meta name="keywords" content="Drake, Shows, Dates, Music">
+		<link rel ="StyleSheet" href="Styles/SignUp.css">
+		
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<link rel="Stylesheet" href="Styles/slicknav.css">
+    	
+				<script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
+		    	<script src="Js/jquery.slicknav.min.js"></script>
+				<script type="text/javascript">
+		    	$(document).ready(function(){
+					$('#nav_menu').slicknav({prependTo:"#mobile_menu"});
+		    	});
+		    	</script>
+	</head>
+	
+	<body>
+		
+		<header>
+			
+			<h1>Sign Up</h1>
+			
+		</header>
+		
+		<nav id="mobile_menu"></nav>
+		<nav id="nav_menu">
+			<ul>
+				
+				<li><a href="Index.html">Home</a></li>
+				<li><a href="Videos.html">Videos</a></li>
+				<li><a href="Music.html">Music</a></li>
+				<li><a href="SignUp.html">Sign Up</a><li>
+				<li><a href="https://us.octobersveryown.com/">Store</a></li>
+							
+			</ul>
+		</nav>
+		
+		<main>
+			<form name=" some_server_code " action=" academic_reg.php " method=" post ">
+				
+				
+				<label class=" user " for=" first "> First Name <span>*</span>:</label> <input type=" text " name=" first_name " id=" first " accesskey=" N " autofocus required><br>
+				
+				<label class=" user " for=" last "> Last Name<span>*</span>:</label> <input type=" text " name=" last_name " id=" last " accesskey=" L " required><br>
+				
+				<label class=" user " for=" user "> User Name<span>*</span>:</label> <input type=" text " name=" user_name " id=" user "  accesskey=" U " required><br>
+				
+				<label class=" user " for=" email "> Email Address <span>*</span>:</label> <input type=" email " name=" email " id=" email "  accesskey=" E " required><br>
+				<label class= " user " for=" password"> Password <span>*</span>:</label> <input type="password" name="password" id="pass" accesskey="P" placeholder="Enter Password"><br>
+				
+				<label class=" user " for=" birth "> Birthday <span>*</span>:</label> <input type="date" name="month" id=" birth " accesskey=" B ">
+		<br>
+		<br>
+				
+		<fieldset id="gender">
+			
+			<legend>Gender: </legend>
+				<input type="radio" name="some_code_on_server" value="male">Male<br>
+				<input type="radio" name="some_code_on_server" value="female">Female<br>
+				<input type="radio" name="some_code_on_server" value="fluid">Fluid<br>
+				
+		</fieldset id>
+		
+		<br>
+		<br>
+		
+		<fieldset id="album">
+			
+			<legend>Favorite Album(s): </legend>
+				<input type="checkbox" name="album" value="More">More Life<br>
+				
+				<input type="checkbox" name="album" value="Views">Views<br>
+				
+				<input type="checkbox" name="album" value="Nothing">Nothing Was The Same<br>
+				<input type="checkbox" name="album" value="If">If You're Reading This It's Too Late<br>
+				
+				<input type="checkbox" name"album" value="Take">Take Care<br>
+			
+				
+		</fieldset id>	
+				
+		<br>
+		<br>
+		
+		<img id="upload">
+			Upload Photo: <input type="file" name="fileupload" accept="image/jpeg, image/gif">
+		</img id>
+
+			<br>
+			<br>
+			<br>
+			
+				<input type="submit" name="submit" value="Submit" id="button">
+				<input type="reset" name="reset">
+				
+				
+			<br>
+			<br>
+			
+			
+			
+	
+			
+		</main>
+		
+		
+		
+		
+		
+
+	</body>
+	
+	
+	<footer>
+		
+		<p> <p id="copyright">
+			&copy; &nbsp; OVOxSammy 2018
+		</p>
+		
+	</footer>
+	
+	
+</html>
